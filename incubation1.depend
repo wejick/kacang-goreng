@@ -1,0 +1,1143 @@
+# depslib dependency file v1.0
+1345608787 source:/home/gio/Documents/kerjaan/P1/belajar/incubation1/src/gsprite.cpp
+	"gsprite.h"
+
+1345628227 /home/gio/Documents/kerjaan/P1/belajar/incubation1/include/gsprite.h
+	<irrlicht.h>
+	<Box2D/Box2D.h>
+
+1298208806 /usr/include/irrlicht/irrlicht.h
+	"IrrCompileConfig.h"
+	"aabbox3d.h"
+	"CDynamicMeshBuffer.h"
+	"CIndexBuffer.h"
+	"CMeshBuffer.h"
+	"coreutil.h"
+	"CVertexBuffer.h"
+	"dimension2d.h"
+	"ECullingTypes.h"
+	"EDebugSceneTypes.h"
+	"EDriverFeatures.h"
+	"EDriverTypes.h"
+	"EGUIAlignment.h"
+	"EGUIElementTypes.h"
+	"EHardwareBufferFlags.h"
+	"EMaterialFlags.h"
+	"EMaterialTypes.h"
+	"EMeshWriterEnums.h"
+	"EMessageBoxFlags.h"
+	"ESceneNodeAnimatorTypes.h"
+	"ESceneNodeTypes.h"
+	"ETerrainElements.h"
+	"fast_atof.h"
+	"heapsort.h"
+	"IAnimatedMesh.h"
+	"IAnimatedMeshMD2.h"
+	"IAnimatedMeshMD3.h"
+	"IAnimatedMeshSceneNode.h"
+	"IAttributeExchangingObject.h"
+	"IAttributes.h"
+	"IBillboardSceneNode.h"
+	"IBillboardTextSceneNode.h"
+	"IBoneSceneNode.h"
+	"ICameraSceneNode.h"
+	"ICursorControl.h"
+	"IDummyTransformationSceneNode.h"
+	"IDynamicMeshBuffer.h"
+	"IEventReceiver.h"
+	"IFileList.h"
+	"IFileSystem.h"
+	"IGeometryCreator.h"
+	"IGPUProgrammingServices.h"
+	"IGUIButton.h"
+	"IGUICheckBox.h"
+	"IGUIColorSelectDialog.h"
+	"IGUIComboBox.h"
+	"IGUIContextMenu.h"
+	"IGUIEditBox.h"
+	"IGUIElement.h"
+	"IGUIElementFactory.h"
+	"IGUIEnvironment.h"
+	"IGUIFileOpenDialog.h"
+	"IGUIFont.h"
+	"IGUIFontBitmap.h"
+	"IGUIImage.h"
+	"IGUIInOutFader.h"
+	"IGUIListBox.h"
+	"IGUIMeshViewer.h"
+	"IGUIScrollBar.h"
+	"IGUISkin.h"
+	"IGUISpinBox.h"
+	"IGUISpriteBank.h"
+	"IGUIStaticText.h"
+	"IGUITabControl.h"
+	"IGUITable.h"
+	"IGUIToolbar.h"
+	"IGUIWindow.h"
+	"IGUITreeView.h"
+	"IImage.h"
+	"IImageLoader.h"
+	"IImageWriter.h"
+	"IIndexBuffer.h"
+	"ILightSceneNode.h"
+	"ILogger.h"
+	"IMaterialRenderer.h"
+	"IMaterialRendererServices.h"
+	"IMesh.h"
+	"IMeshBuffer.h"
+	"IMeshCache.h"
+	"IMeshLoader.h"
+	"IMeshManipulator.h"
+	"IMeshSceneNode.h"
+	"IMeshWriter.h"
+	"IMetaTriangleSelector.h"
+	"IOSOperator.h"
+	"IParticleSystemSceneNode.h"
+	"IQ3LevelMesh.h"
+	"IQ3Shader.h"
+	"IReadFile.h"
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"IrrlichtDevice.h"
+	"irrList.h"
+	"irrMap.h"
+	"irrMath.h"
+	"irrString.h"
+	"irrTypes.h"
+	"path.h"
+	"irrXML.h"
+	"ISceneCollisionManager.h"
+	"ISceneManager.h"
+	"ISceneNode.h"
+	"ISceneNodeAnimator.h"
+	"ISceneNodeAnimatorCameraFPS.h"
+	"ISceneNodeAnimatorCameraMaya.h"
+	"ISceneNodeAnimatorCollisionResponse.h"
+	"ISceneNodeAnimatorFactory.h"
+	"ISceneNodeFactory.h"
+	"ISceneUserDataSerializer.h"
+	"IShaderConstantSetCallBack.h"
+	"IShadowVolumeSceneNode.h"
+	"ISkinnedMesh.h"
+	"ITerrainSceneNode.h"
+	"ITextSceneNode.h"
+	"ITexture.h"
+	"ITimer.h"
+	"ITriangleSelector.h"
+	"IVertexBuffer.h"
+	"IVideoDriver.h"
+	"IVideoModeList.h"
+	"IVolumeLightSceneNode.h"
+	"IWriteFile.h"
+	"IXMLReader.h"
+	"IXMLWriter.h"
+	"ILightManager.h"
+	"Keycodes.h"
+	"line2d.h"
+	"line3d.h"
+	"matrix4.h"
+	"plane3d.h"
+	"position2d.h"
+	"quaternion.h"
+	"rect.h"
+	"S3DVertex.h"
+	"SAnimatedMesh.h"
+	"SceneParameters.h"
+	"SColor.h"
+	"SExposedVideoData.h"
+	"SIrrCreationParameters.h"
+	"SKeyMap.h"
+	"SLight.h"
+	"SMaterial.h"
+	"SMesh.h"
+	"SMeshBuffer.h"
+	"SMeshBufferLightMap.h"
+	"SMeshBufferTangents.h"
+	"SParticle.h"
+	"SSharedMeshBuffer.h"
+	"SSkinMeshBuffer.h"
+	"SVertexIndex.h"
+	"SViewFrustum.h"
+	"triangle3d.h"
+	"vector2d.h"
+	"vector3d.h"
+	"SIrrCreationParameters.h"
+
+1321868021 /usr/include/irrlicht/IrrCompileConfig.h
+	<stdio.h>
+	<xtl.h>
+	<endian.h>
+
+1298208806 /usr/include/irrlicht/aabbox3d.h
+	"irrMath.h"
+	"plane3d.h"
+	"line3d.h"
+
+1298208806 /usr/include/irrlicht/irrMath.h
+	"IrrCompileConfig.h"
+	"irrTypes.h"
+	<math.h>
+	<float.h>
+	<stdlib.h>
+	<limits.h>
+
+1298208806 /usr/include/irrlicht/irrTypes.h
+	"IrrCompileConfig.h"
+	<wchar.h>
+	<crtdbg.h>
+	"assert.h"
+	<stdlib.h>
+	<crtdbg.h>
+
+1298208806 /usr/include/irrlicht/plane3d.h
+	"irrMath.h"
+	"vector3d.h"
+
+1298208806 /usr/include/irrlicht/vector3d.h
+	"irrMath.h"
+
+1298208806 /usr/include/irrlicht/line3d.h
+	"irrTypes.h"
+	"vector3d.h"
+
+1298208806 /usr/include/irrlicht/CDynamicMeshBuffer.h
+	"IDynamicMeshBuffer.h"
+	"CVertexBuffer.h"
+	"CIndexBuffer.h"
+
+1298208806 /usr/include/irrlicht/IDynamicMeshBuffer.h
+	"IMeshBuffer.h"
+	"IVertexBuffer.h"
+	"IIndexBuffer.h"
+
+1298208806 /usr/include/irrlicht/IMeshBuffer.h
+	"IReferenceCounted.h"
+	"SMaterial.h"
+	"aabbox3d.h"
+	"S3DVertex.h"
+	"SVertexIndex.h"
+	"EHardwareBufferFlags.h"
+	"EPrimitiveTypes.h"
+
+1298208806 /usr/include/irrlicht/IReferenceCounted.h
+	"irrTypes.h"
+
+1298208806 /usr/include/irrlicht/SMaterial.h
+	"SColor.h"
+	"matrix4.h"
+	"irrArray.h"
+	"irrMath.h"
+	"EMaterialTypes.h"
+	"EMaterialFlags.h"
+	"SMaterialLayer.h"
+
+1298208806 /usr/include/irrlicht/SColor.h
+	"irrTypes.h"
+	"irrMath.h"
+
+1298208806 /usr/include/irrlicht/matrix4.h
+	"irrMath.h"
+	"vector3d.h"
+	"vector2d.h"
+	"plane3d.h"
+	"aabbox3d.h"
+	"rect.h"
+	"irrString.h"
+	<windows.h>
+
+1298208806 /usr/include/irrlicht/vector2d.h
+	"irrMath.h"
+	"dimension2d.h"
+
+1298208806 /usr/include/irrlicht/dimension2d.h
+	"irrTypes.h"
+	"irrMath.h"
+
+1298208806 /usr/include/irrlicht/rect.h
+	"irrTypes.h"
+	"dimension2d.h"
+	"position2d.h"
+
+1298208806 /usr/include/irrlicht/position2d.h
+	"vector2d.h"
+
+1298208806 /usr/include/irrlicht/irrString.h
+	"irrTypes.h"
+	"irrAllocator.h"
+	"irrMath.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
+1298208806 /usr/include/irrlicht/irrAllocator.h
+	"irrTypes.h"
+	<new>
+	<memory.h>
+
+1298208806 /usr/include/irrlicht/irrArray.h
+	"irrTypes.h"
+	"heapsort.h"
+	"irrAllocator.h"
+	"irrMath.h"
+
+1298208806 /usr/include/irrlicht/heapsort.h
+	"irrTypes.h"
+
+1298208806 /usr/include/irrlicht/EMaterialTypes.h
+
+1298208806 /usr/include/irrlicht/EMaterialFlags.h
+
+1298208806 /usr/include/irrlicht/SMaterialLayer.h
+	"matrix4.h"
+	"irrAllocator.h"
+
+1298208806 /usr/include/irrlicht/S3DVertex.h
+	"vector3d.h"
+	"vector2d.h"
+	"SColor.h"
+
+1298208806 /usr/include/irrlicht/SVertexIndex.h
+	"irrTypes.h"
+
+1298208806 /usr/include/irrlicht/EHardwareBufferFlags.h
+
+1298208806 /usr/include/irrlicht/EPrimitiveTypes.h
+
+1298208806 /usr/include/irrlicht/IVertexBuffer.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"S3DVertex.h"
+
+1298208806 /usr/include/irrlicht/IIndexBuffer.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"SVertexIndex.h"
+
+1298208806 /usr/include/irrlicht/CVertexBuffer.h
+	"IVertexBuffer.h"
+
+1298208806 /usr/include/irrlicht/CIndexBuffer.h
+	"IIndexBuffer.h"
+
+1298208806 /usr/include/irrlicht/CMeshBuffer.h
+	"irrArray.h"
+	"IMeshBuffer.h"
+
+1298208806 /usr/include/irrlicht/coreutil.h
+	"irrString.h"
+	"path.h"
+
+1298208806 /usr/include/irrlicht/path.h
+	"irrString.h"
+
+1298208806 /usr/include/irrlicht/ECullingTypes.h
+	"irrTypes.h"
+
+1298208806 /usr/include/irrlicht/EDebugSceneTypes.h
+
+1298208806 /usr/include/irrlicht/EDriverFeatures.h
+
+1298208806 /usr/include/irrlicht/EDriverTypes.h
+
+1298208806 /usr/include/irrlicht/EGUIAlignment.h
+
+1298208806 /usr/include/irrlicht/EGUIElementTypes.h
+	"irrTypes.h"
+
+1298208806 /usr/include/irrlicht/EMeshWriterEnums.h
+	"irrTypes.h"
+
+1298208806 /usr/include/irrlicht/EMessageBoxFlags.h
+
+1298208806 /usr/include/irrlicht/ESceneNodeAnimatorTypes.h
+
+1298208806 /usr/include/irrlicht/ESceneNodeTypes.h
+	"irrTypes.h"
+
+1298208806 /usr/include/irrlicht/ETerrainElements.h
+
+1298208806 /usr/include/irrlicht/fast_atof.h
+	"irrMath.h"
+
+1298208806 /usr/include/irrlicht/IAnimatedMesh.h
+	"aabbox3d.h"
+	"IMesh.h"
+
+1298208806 /usr/include/irrlicht/IMesh.h
+	"IReferenceCounted.h"
+	"SMaterial.h"
+	"EHardwareBufferFlags.h"
+
+1298208806 /usr/include/irrlicht/IAnimatedMeshMD2.h
+	"IAnimatedMesh.h"
+
+1298208806 /usr/include/irrlicht/IAnimatedMeshMD3.h
+	"IAnimatedMesh.h"
+	"IQ3Shader.h"
+	"quaternion.h"
+
+1298208806 /usr/include/irrlicht/IQ3Shader.h
+	"irrArray.h"
+	"fast_atof.h"
+	"IFileSystem.h"
+	"IVideoDriver.h"
+	"coreutil.h"
+
+1298208806 /usr/include/irrlicht/IFileSystem.h
+	"IReferenceCounted.h"
+	"IXMLReader.h"
+	"IFileArchive.h"
+
+1298208806 /usr/include/irrlicht/IXMLReader.h
+	"IReferenceCounted.h"
+	"irrXML.h"
+
+1298208806 /usr/include/irrlicht/irrXML.h
+	<stdio.h>
+	"IrrCompileConfig.h"
+	<irrXML.h>
+	<string>
+	<irrXML.h>
+	<irrXML.h>
+	<irrXML.h>
+
+1298208806 /usr/include/irrlicht/IFileArchive.h
+	"IReadFile.h"
+	"IFileList.h"
+
+1298208806 /usr/include/irrlicht/IReadFile.h
+	"IReferenceCounted.h"
+	"coreutil.h"
+
+1298208806 /usr/include/irrlicht/IFileList.h
+	"IReferenceCounted.h"
+	"path.h"
+
+1298208806 /usr/include/irrlicht/IVideoDriver.h
+	"rect.h"
+	"SColor.h"
+	"ITexture.h"
+	"irrArray.h"
+	"matrix4.h"
+	"plane3d.h"
+	"dimension2d.h"
+	"position2d.h"
+	"SMaterial.h"
+	"IMeshBuffer.h"
+	"triangle3d.h"
+	"EDriverTypes.h"
+	"EDriverFeatures.h"
+	"SExposedVideoData.h"
+
+1298208806 /usr/include/irrlicht/ITexture.h
+	"IReferenceCounted.h"
+	"IImage.h"
+	"dimension2d.h"
+	"EDriverTypes.h"
+	"path.h"
+	"matrix4.h"
+
+1298208806 /usr/include/irrlicht/IImage.h
+	"IReferenceCounted.h"
+	"position2d.h"
+	"rect.h"
+	"SColor.h"
+
+1298208806 /usr/include/irrlicht/triangle3d.h
+	"vector3d.h"
+	"line3d.h"
+	"plane3d.h"
+	"aabbox3d.h"
+
+1298208806 /usr/include/irrlicht/SExposedVideoData.h
+
+1298208806 /usr/include/irrlicht/quaternion.h
+	"irrTypes.h"
+	"irrMath.h"
+	"matrix4.h"
+	"vector3d.h"
+
+1298208806 /usr/include/irrlicht/IAnimatedMeshSceneNode.h
+	"ISceneNode.h"
+	"IBoneSceneNode.h"
+	"IAnimatedMeshMD2.h"
+	"IAnimatedMeshMD3.h"
+
+1298208806 /usr/include/irrlicht/ISceneNode.h
+	"IAttributeExchangingObject.h"
+	"ESceneNodeTypes.h"
+	"ECullingTypes.h"
+	"EDebugSceneTypes.h"
+	"ISceneNodeAnimator.h"
+	"ITriangleSelector.h"
+	"SMaterial.h"
+	"irrString.h"
+	"aabbox3d.h"
+	"matrix4.h"
+	"irrList.h"
+	"IAttributes.h"
+
+1298208806 /usr/include/irrlicht/IAttributeExchangingObject.h
+	"IReferenceCounted.h"
+
+1298208806 /usr/include/irrlicht/ISceneNodeAnimator.h
+	"IReferenceCounted.h"
+	"vector3d.h"
+	"ESceneNodeAnimatorTypes.h"
+	"IAttributeExchangingObject.h"
+	"IEventReceiver.h"
+
+1298208806 /usr/include/irrlicht/IEventReceiver.h
+	"ILogger.h"
+	"Keycodes.h"
+	"irrString.h"
+
+1298208806 /usr/include/irrlicht/ILogger.h
+	"IReferenceCounted.h"
+
+1298208806 /usr/include/irrlicht/Keycodes.h
+
+1298208806 /usr/include/irrlicht/ITriangleSelector.h
+	"IReferenceCounted.h"
+	"triangle3d.h"
+	"aabbox3d.h"
+	"matrix4.h"
+	"line3d.h"
+
+1298208806 /usr/include/irrlicht/irrList.h
+	"irrTypes.h"
+	"irrAllocator.h"
+	"irrMath.h"
+
+1298208806 /usr/include/irrlicht/IAttributes.h
+	"IReferenceCounted.h"
+	"SColor.h"
+	"vector3d.h"
+	"vector2d.h"
+	"line2d.h"
+	"line3d.h"
+	"triangle3d.h"
+	"position2d.h"
+	"rect.h"
+	"matrix4.h"
+	"quaternion.h"
+	"plane3d.h"
+	"triangle3d.h"
+	"line2d.h"
+	"line3d.h"
+	"irrString.h"
+	"irrArray.h"
+	"IXMLReader.h"
+	"EAttributes.h"
+
+1298208806 /usr/include/irrlicht/line2d.h
+	"irrTypes.h"
+	"vector2d.h"
+
+1298208806 /usr/include/irrlicht/EAttributes.h
+
+1298208806 /usr/include/irrlicht/IBoneSceneNode.h
+	"ISceneNode.h"
+
+1298208806 /usr/include/irrlicht/IBillboardSceneNode.h
+	"ISceneNode.h"
+
+1298208806 /usr/include/irrlicht/IBillboardTextSceneNode.h
+	"IBillboardSceneNode.h"
+
+1298208806 /usr/include/irrlicht/ICameraSceneNode.h
+	"ISceneNode.h"
+	"IEventReceiver.h"
+
+1298208806 /usr/include/irrlicht/ICursorControl.h
+	"IReferenceCounted.h"
+	"position2d.h"
+	"rect.h"
+
+1298208806 /usr/include/irrlicht/IDummyTransformationSceneNode.h
+	"ISceneNode.h"
+
+1298208806 /usr/include/irrlicht/IGeometryCreator.h
+	"IReferenceCounted.h"
+	"IMesh.h"
+	"IImage.h"
+
+1298208806 /usr/include/irrlicht/IGPUProgrammingServices.h
+	"EShaderTypes.h"
+	"EMaterialTypes.h"
+	"EPrimitiveTypes.h"
+	"path.h"
+
+1298208806 /usr/include/irrlicht/EShaderTypes.h
+	"irrTypes.h"
+
+1298208806 /usr/include/irrlicht/IGUIButton.h
+	"IGUIElement.h"
+
+1298208806 /usr/include/irrlicht/IGUIElement.h
+	"IAttributeExchangingObject.h"
+	"irrList.h"
+	"rect.h"
+	"irrString.h"
+	"IEventReceiver.h"
+	"EGUIElementTypes.h"
+	"EGUIAlignment.h"
+	"IAttributes.h"
+
+1298208806 /usr/include/irrlicht/IGUICheckBox.h
+	"IGUIElement.h"
+
+1298208806 /usr/include/irrlicht/IGUIColorSelectDialog.h
+	"IGUIElement.h"
+
+1298208806 /usr/include/irrlicht/IGUIComboBox.h
+	"IGUIElement.h"
+
+1298208806 /usr/include/irrlicht/IGUIContextMenu.h
+	"IGUIElement.h"
+
+1298208806 /usr/include/irrlicht/IGUIEditBox.h
+	"IGUIElement.h"
+	"SColor.h"
+
+1298208806 /usr/include/irrlicht/IGUIElementFactory.h
+	"IReferenceCounted.h"
+	"EGUIElementTypes.h"
+
+1298208806 /usr/include/irrlicht/IGUIEnvironment.h
+	"IReferenceCounted.h"
+	"IGUISkin.h"
+	"rect.h"
+	"EMessageBoxFlags.h"
+	"IEventReceiver.h"
+	"IXMLReader.h"
+	"path.h"
+
+1298208806 /usr/include/irrlicht/IGUISkin.h
+	"IAttributeExchangingObject.h"
+	"EGUIAlignment.h"
+	"SColor.h"
+	"rect.h"
+
+1298208806 /usr/include/irrlicht/IGUIFileOpenDialog.h
+	"IGUIElement.h"
+	"path.h"
+
+1298208806 /usr/include/irrlicht/IGUIFont.h
+	"IReferenceCounted.h"
+	"SColor.h"
+	"rect.h"
+	"irrString.h"
+
+1298208806 /usr/include/irrlicht/IGUIFontBitmap.h
+	"IGUIFont.h"
+
+1298208806 /usr/include/irrlicht/IGUIImage.h
+	"IGUIElement.h"
+
+1298208806 /usr/include/irrlicht/IGUIInOutFader.h
+	"IGUIElement.h"
+	"SColor.h"
+
+1298208806 /usr/include/irrlicht/IGUIListBox.h
+	"IGUIElement.h"
+	"SColor.h"
+
+1298208806 /usr/include/irrlicht/IGUIMeshViewer.h
+	"IGUIElement.h"
+
+1298208806 /usr/include/irrlicht/IGUIScrollBar.h
+	"IGUIElement.h"
+
+1298208806 /usr/include/irrlicht/IGUISpinBox.h
+	"IGUIElement.h"
+
+1298208806 /usr/include/irrlicht/IGUISpriteBank.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"SColor.h"
+	"rect.h"
+
+1298208806 /usr/include/irrlicht/IGUIStaticText.h
+	"IGUIElement.h"
+	"SColor.h"
+
+1298208806 /usr/include/irrlicht/IGUITabControl.h
+	"IGUIElement.h"
+	"SColor.h"
+	"IGUISkin.h"
+
+1298208806 /usr/include/irrlicht/IGUITable.h
+	"IGUIElement.h"
+	"irrTypes.h"
+	"SColor.h"
+	"IGUISkin.h"
+
+1298208806 /usr/include/irrlicht/IGUIToolbar.h
+	"IGUIElement.h"
+
+1298208806 /usr/include/irrlicht/IGUIWindow.h
+	"IGUIElement.h"
+	"EMessageBoxFlags.h"
+
+1298208806 /usr/include/irrlicht/IGUITreeView.h
+	"IGUIElement.h"
+	"IGUIImageList.h"
+	"irrTypes.h"
+
+1298208806 /usr/include/irrlicht/IGUIImageList.h
+	"IGUIElement.h"
+	"rect.h"
+	"irrTypes.h"
+
+1298208806 /usr/include/irrlicht/IImageLoader.h
+	"IReferenceCounted.h"
+	"IImage.h"
+	"path.h"
+
+1298208806 /usr/include/irrlicht/IImageWriter.h
+	"IReferenceCounted.h"
+	"irrString.h"
+	"coreutil.h"
+
+1298208806 /usr/include/irrlicht/ILightSceneNode.h
+	"ISceneNode.h"
+	"SLight.h"
+
+1298208806 /usr/include/irrlicht/SLight.h
+	"SColor.h"
+
+1298208806 /usr/include/irrlicht/IMaterialRenderer.h
+	"IReferenceCounted.h"
+	"SMaterial.h"
+	"S3DVertex.h"
+
+1298208806 /usr/include/irrlicht/IMaterialRendererServices.h
+	"SMaterial.h"
+	"S3DVertex.h"
+
+1298208806 /usr/include/irrlicht/IMeshCache.h
+	"IReferenceCounted.h"
+	"path.h"
+
+1298208806 /usr/include/irrlicht/IMeshLoader.h
+	"IReferenceCounted.h"
+	"path.h"
+
+1298208806 /usr/include/irrlicht/IMeshManipulator.h
+	"IReferenceCounted.h"
+	"vector3d.h"
+	"aabbox3d.h"
+	"matrix4.h"
+	"IAnimatedMesh.h"
+	"IMeshBuffer.h"
+	"SVertexManipulator.h"
+
+1298208806 /usr/include/irrlicht/SVertexManipulator.h
+	"S3DVertex.h"
+	"SColor.h"
+
+1298208806 /usr/include/irrlicht/IMeshSceneNode.h
+	"ISceneNode.h"
+
+1298208806 /usr/include/irrlicht/IMeshWriter.h
+	"IReferenceCounted.h"
+	"EMeshWriterEnums.h"
+
+1298208806 /usr/include/irrlicht/IMetaTriangleSelector.h
+	"ITriangleSelector.h"
+
+1298208806 /usr/include/irrlicht/IOSOperator.h
+	"IReferenceCounted.h"
+
+1298208806 /usr/include/irrlicht/IParticleSystemSceneNode.h
+	"ISceneNode.h"
+	"IParticleAnimatedMeshSceneNodeEmitter.h"
+	"IParticleBoxEmitter.h"
+	"IParticleCylinderEmitter.h"
+	"IParticleMeshEmitter.h"
+	"IParticleRingEmitter.h"
+	"IParticleSphereEmitter.h"
+	"IParticleAttractionAffector.h"
+	"IParticleFadeOutAffector.h"
+	"IParticleGravityAffector.h"
+	"IParticleRotationAffector.h"
+	"dimension2d.h"
+
+1298208806 /usr/include/irrlicht/IParticleAnimatedMeshSceneNodeEmitter.h
+	"IParticleEmitter.h"
+	"IAnimatedMeshSceneNode.h"
+
+1298208806 /usr/include/irrlicht/IParticleEmitter.h
+	"IAttributeExchangingObject.h"
+	"SParticle.h"
+
+1298208806 /usr/include/irrlicht/SParticle.h
+	"vector3d.h"
+	"dimension2d.h"
+	"SColor.h"
+
+1298208806 /usr/include/irrlicht/IParticleBoxEmitter.h
+	"IParticleEmitter.h"
+	"aabbox3d.h"
+
+1298208806 /usr/include/irrlicht/IParticleCylinderEmitter.h
+	"IParticleEmitter.h"
+
+1298208806 /usr/include/irrlicht/IParticleMeshEmitter.h
+	"IParticleEmitter.h"
+	"IMesh.h"
+
+1298208806 /usr/include/irrlicht/IParticleRingEmitter.h
+	"IParticleEmitter.h"
+
+1298208806 /usr/include/irrlicht/IParticleSphereEmitter.h
+	"IParticleEmitter.h"
+
+1298208806 /usr/include/irrlicht/IParticleAttractionAffector.h
+	"IParticleAffector.h"
+
+1298208806 /usr/include/irrlicht/IParticleAffector.h
+	"IAttributeExchangingObject.h"
+	"SParticle.h"
+
+1298208806 /usr/include/irrlicht/IParticleFadeOutAffector.h
+	"IParticleAffector.h"
+
+1298208806 /usr/include/irrlicht/IParticleGravityAffector.h
+	"IParticleAffector.h"
+
+1298208806 /usr/include/irrlicht/IParticleRotationAffector.h
+	"IParticleAffector.h"
+
+1298208806 /usr/include/irrlicht/IQ3LevelMesh.h
+	"IAnimatedMesh.h"
+	"IQ3Shader.h"
+
+1298208806 /usr/include/irrlicht/IrrlichtDevice.h
+	"IReferenceCounted.h"
+	"dimension2d.h"
+	"IVideoDriver.h"
+	"EDriverTypes.h"
+	"EDeviceTypes.h"
+	"IEventReceiver.h"
+	"ICursorControl.h"
+	"IVideoModeList.h"
+	"ITimer.h"
+	"IOSOperator.h"
+
+1298208806 /usr/include/irrlicht/EDeviceTypes.h
+
+1298208806 /usr/include/irrlicht/IVideoModeList.h
+	"IReferenceCounted.h"
+	"dimension2d.h"
+
+1298208806 /usr/include/irrlicht/ITimer.h
+	"IReferenceCounted.h"
+
+1298208806 /usr/include/irrlicht/irrMap.h
+	"irrTypes.h"
+	"irrMath.h"
+
+1298208806 /usr/include/irrlicht/ISceneCollisionManager.h
+	"IReferenceCounted.h"
+	"vector3d.h"
+	"triangle3d.h"
+	"position2d.h"
+	"line3d.h"
+
+1298208806 /usr/include/irrlicht/ISceneManager.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"irrString.h"
+	"path.h"
+	"vector3d.h"
+	"dimension2d.h"
+	"SColor.h"
+	"ETerrainElements.h"
+	"ESceneNodeTypes.h"
+	"ESceneNodeAnimatorTypes.h"
+	"EMeshWriterEnums.h"
+	"SceneParameters.h"
+	"IGeometryCreator.h"
+	"ISkinnedMesh.h"
+
+1298208806 /usr/include/irrlicht/SceneParameters.h
+
+1298208806 /usr/include/irrlicht/ISkinnedMesh.h
+	"irrArray.h"
+	"IBoneSceneNode.h"
+	"IAnimatedMesh.h"
+	"SSkinMeshBuffer.h"
+
+1298208806 /usr/include/irrlicht/SSkinMeshBuffer.h
+	"IMeshBuffer.h"
+	"S3DVertex.h"
+
+1298208806 /usr/include/irrlicht/ISceneNodeAnimatorCameraFPS.h
+	"ISceneNodeAnimator.h"
+	"IEventReceiver.h"
+
+1298208806 /usr/include/irrlicht/ISceneNodeAnimatorCameraMaya.h
+	"ISceneNodeAnimator.h"
+
+1298208806 /usr/include/irrlicht/ISceneNodeAnimatorCollisionResponse.h
+	"ISceneNode.h"
+
+1298208806 /usr/include/irrlicht/ISceneNodeAnimatorFactory.h
+	"IReferenceCounted.h"
+	"ESceneNodeAnimatorTypes.h"
+
+1298208806 /usr/include/irrlicht/ISceneNodeFactory.h
+	"IReferenceCounted.h"
+	"ESceneNodeTypes.h"
+
+1298208806 /usr/include/irrlicht/ISceneUserDataSerializer.h
+	"IReferenceCounted.h"
+
+1298208806 /usr/include/irrlicht/IShaderConstantSetCallBack.h
+	"IReferenceCounted.h"
+
+1298208806 /usr/include/irrlicht/IShadowVolumeSceneNode.h
+	"ISceneNode.h"
+
+1298208806 /usr/include/irrlicht/ITerrainSceneNode.h
+	"ETerrainElements.h"
+	"ISceneNode.h"
+	"IDynamicMeshBuffer.h"
+	"irrArray.h"
+
+1298208806 /usr/include/irrlicht/ITextSceneNode.h
+	"ISceneNode.h"
+
+1298208806 /usr/include/irrlicht/IVolumeLightSceneNode.h
+	"ISceneNode.h"
+
+1298208806 /usr/include/irrlicht/IWriteFile.h
+	"IReferenceCounted.h"
+	"path.h"
+
+1298208806 /usr/include/irrlicht/IXMLWriter.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"irrString.h"
+
+1298208806 /usr/include/irrlicht/ILightManager.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+
+1298208806 /usr/include/irrlicht/SAnimatedMesh.h
+	"IAnimatedMesh.h"
+	"IMesh.h"
+	"aabbox3d.h"
+	"irrArray.h"
+
+1298208806 /usr/include/irrlicht/SIrrCreationParameters.h
+	"EDriverTypes.h"
+	"EDeviceTypes.h"
+	"dimension2d.h"
+	"ILogger.h"
+
+1298208806 /usr/include/irrlicht/SKeyMap.h
+	"Keycodes.h"
+
+1298208806 /usr/include/irrlicht/SMesh.h
+	"IMesh.h"
+	"IMeshBuffer.h"
+	"aabbox3d.h"
+	"irrArray.h"
+
+1298208806 /usr/include/irrlicht/SMeshBuffer.h
+	"CMeshBuffer.h"
+
+1298208806 /usr/include/irrlicht/SMeshBufferLightMap.h
+	"CMeshBuffer.h"
+
+1298208806 /usr/include/irrlicht/SMeshBufferTangents.h
+	"CMeshBuffer.h"
+
+1298208806 /usr/include/irrlicht/SSharedMeshBuffer.h
+	"irrArray.h"
+	"IMeshBuffer.h"
+
+1298208806 /usr/include/irrlicht/SViewFrustum.h
+	"plane3d.h"
+	"vector3d.h"
+	"line3d.h"
+	"aabbox3d.h"
+	"matrix4.h"
+	"IVideoDriver.h"
+
+1314988740 /home/gio/Documents/kerjaan/P1/logistik/Box2D_v2.2.1/Box2D/Box2D.h
+	<Box2D/Common/b2Settings.h>
+	<Box2D/Common/b2Draw.h>
+	<Box2D/Common/b2Timer.h>
+	<Box2D/Collision/Shapes/b2CircleShape.h>
+	<Box2D/Collision/Shapes/b2EdgeShape.h>
+	<Box2D/Collision/Shapes/b2ChainShape.h>
+	<Box2D/Collision/Shapes/b2PolygonShape.h>
+	<Box2D/Collision/b2BroadPhase.h>
+	<Box2D/Collision/b2Distance.h>
+	<Box2D/Collision/b2DynamicTree.h>
+	<Box2D/Collision/b2TimeOfImpact.h>
+	<Box2D/Dynamics/b2Body.h>
+	<Box2D/Dynamics/b2Fixture.h>
+	<Box2D/Dynamics/b2WorldCallbacks.h>
+	<Box2D/Dynamics/b2TimeStep.h>
+	<Box2D/Dynamics/b2World.h>
+	<Box2D/Dynamics/Contacts/b2Contact.h>
+	<Box2D/Dynamics/Joints/b2DistanceJoint.h>
+	<Box2D/Dynamics/Joints/b2FrictionJoint.h>
+	<Box2D/Dynamics/Joints/b2GearJoint.h>
+	<Box2D/Dynamics/Joints/b2WheelJoint.h>
+	<Box2D/Dynamics/Joints/b2MouseJoint.h>
+	<Box2D/Dynamics/Joints/b2PrismaticJoint.h>
+	<Box2D/Dynamics/Joints/b2PulleyJoint.h>
+	<Box2D/Dynamics/Joints/b2RevoluteJoint.h>
+	<Box2D/Dynamics/Joints/b2RopeJoint.h>
+	<Box2D/Dynamics/Joints/b2WeldJoint.h>
+
+1314992962 /home/gio/Documents/kerjaan/P1/logistik/Box2D_v2.2.1/Box2D/Common/b2Settings.h
+	<cassert>
+	<cmath>
+
+1301200302 /home/gio/Documents/kerjaan/P1/logistik/Box2D_v2.2.1/Box2D/Common/b2Draw.h
+	<Box2D/Common/b2Math.h>
+
+1315050482 /home/gio/Documents/kerjaan/P1/logistik/Box2D_v2.2.1/Box2D/Common/b2Math.h
+	<Box2D/Common/b2Settings.h>
+	<cmath>
+	<cfloat>
+	<cstddef>
+	<limits>
+
+1315759596 /home/gio/Documents/kerjaan/P1/logistik/Box2D_v2.2.1/Box2D/Common/b2Timer.h
+	<Box2D/Common/b2Settings.h>
+
+1300936620 /home/gio/Documents/kerjaan/P1/logistik/Box2D_v2.2.1/Box2D/Collision/Shapes/b2CircleShape.h
+	<Box2D/Collision/Shapes/b2Shape.h>
+
+1313930994 /home/gio/Documents/kerjaan/P1/logistik/Box2D_v2.2.1/Box2D/Collision/Shapes/b2Shape.h
+	<Box2D/Common/b2BlockAllocator.h>
+	<Box2D/Common/b2Math.h>
+	<Box2D/Collision/b2Collision.h>
+
+1300936620 /home/gio/Documents/kerjaan/P1/logistik/Box2D_v2.2.1/Box2D/Common/b2BlockAllocator.h
+	<Box2D/Common/b2Settings.h>
+
+1307254962 /home/gio/Documents/kerjaan/P1/logistik/Box2D_v2.2.1/Box2D/Collision/b2Collision.h
+	<Box2D/Common/b2Math.h>
+	<climits>
+
+1314809588 /home/gio/Documents/kerjaan/P1/logistik/Box2D_v2.2.1/Box2D/Collision/Shapes/b2EdgeShape.h
+	<Box2D/Collision/Shapes/b2Shape.h>
+
+1314808944 /home/gio/Documents/kerjaan/P1/logistik/Box2D_v2.2.1/Box2D/Collision/Shapes/b2ChainShape.h
+	<Box2D/Collision/Shapes/b2Shape.h>
+
+1300936620 /home/gio/Documents/kerjaan/P1/logistik/Box2D_v2.2.1/Box2D/Collision/Shapes/b2PolygonShape.h
+	<Box2D/Collision/Shapes/b2Shape.h>
+
+1301210604 /home/gio/Documents/kerjaan/P1/logistik/Box2D_v2.2.1/Box2D/Collision/b2BroadPhase.h
+	<Box2D/Common/b2Settings.h>
+	<Box2D/Collision/b2Collision.h>
+	<Box2D/Collision/b2DynamicTree.h>
+	<algorithm>
+
+1308937590 /home/gio/Documents/kerjaan/P1/logistik/Box2D_v2.2.1/Box2D/Collision/b2DynamicTree.h
+	<Box2D/Collision/b2Collision.h>
+	<Box2D/Common/b2GrowableStack.h>
+
+1300936620 /home/gio/Documents/kerjaan/P1/logistik/Box2D_v2.2.1/Box2D/Common/b2GrowableStack.h
+	<Box2D/Common/b2Settings.h>
+	<cstring>
+
+1300936620 /home/gio/Documents/kerjaan/P1/logistik/Box2D_v2.2.1/Box2D/Collision/b2Distance.h
+	<Box2D/Common/b2Math.h>
+
+1300936620 /home/gio/Documents/kerjaan/P1/logistik/Box2D_v2.2.1/Box2D/Collision/b2TimeOfImpact.h
+	<Box2D/Common/b2Math.h>
+	<Box2D/Collision/b2Distance.h>
+
+1315037544 /home/gio/Documents/kerjaan/P1/logistik/Box2D_v2.2.1/Box2D/Dynamics/b2Body.h
+	<Box2D/Common/b2Math.h>
+	<Box2D/Collision/Shapes/b2Shape.h>
+	<memory>
+
+1315021942 /home/gio/Documents/kerjaan/P1/logistik/Box2D_v2.2.1/Box2D/Dynamics/b2Fixture.h
+	<Box2D/Dynamics/b2Body.h>
+	<Box2D/Collision/b2Collision.h>
+	<Box2D/Collision/Shapes/b2Shape.h>
+
+1314023202 /home/gio/Documents/kerjaan/P1/logistik/Box2D_v2.2.1/Box2D/Dynamics/b2WorldCallbacks.h
+	<Box2D/Common/b2Settings.h>
+
+1315758732 /home/gio/Documents/kerjaan/P1/logistik/Box2D_v2.2.1/Box2D/Dynamics/b2TimeStep.h
+	<Box2D/Common/b2Math.h>
+
+1315123598 /home/gio/Documents/kerjaan/P1/logistik/Box2D_v2.2.1/Box2D/Dynamics/b2World.h
+	<Box2D/Common/b2Math.h>
+	<Box2D/Common/b2BlockAllocator.h>
+	<Box2D/Common/b2StackAllocator.h>
+	<Box2D/Dynamics/b2ContactManager.h>
+	<Box2D/Dynamics/b2WorldCallbacks.h>
+	<Box2D/Dynamics/b2TimeStep.h>
+
+1300936620 /home/gio/Documents/kerjaan/P1/logistik/Box2D_v2.2.1/Box2D/Common/b2StackAllocator.h
+	<Box2D/Common/b2Settings.h>
+
+1300936620 /home/gio/Documents/kerjaan/P1/logistik/Box2D_v2.2.1/Box2D/Dynamics/b2ContactManager.h
+	<Box2D/Collision/b2BroadPhase.h>
+
+1305736420 /home/gio/Documents/kerjaan/P1/logistik/Box2D_v2.2.1/Box2D/Dynamics/Contacts/b2Contact.h
+	<Box2D/Common/b2Math.h>
+	<Box2D/Collision/b2Collision.h>
+	<Box2D/Collision/Shapes/b2Shape.h>
+	<Box2D/Dynamics/b2Fixture.h>
+
+1315112584 /home/gio/Documents/kerjaan/P1/logistik/Box2D_v2.2.1/Box2D/Dynamics/Joints/b2DistanceJoint.h
+	<Box2D/Dynamics/Joints/b2Joint.h>
+
+1315124800 /home/gio/Documents/kerjaan/P1/logistik/Box2D_v2.2.1/Box2D/Dynamics/Joints/b2Joint.h
+	<Box2D/Common/b2Math.h>
+
+1315123878 /home/gio/Documents/kerjaan/P1/logistik/Box2D_v2.2.1/Box2D/Dynamics/Joints/b2FrictionJoint.h
+	<Box2D/Dynamics/Joints/b2Joint.h>
+
+1315124134 /home/gio/Documents/kerjaan/P1/logistik/Box2D_v2.2.1/Box2D/Dynamics/Joints/b2GearJoint.h
+	<Box2D/Dynamics/Joints/b2Joint.h>
+
+1315124752 /home/gio/Documents/kerjaan/P1/logistik/Box2D_v2.2.1/Box2D/Dynamics/Joints/b2WheelJoint.h
+	<Box2D/Dynamics/Joints/b2Joint.h>
+
+1315124812 /home/gio/Documents/kerjaan/P1/logistik/Box2D_v2.2.1/Box2D/Dynamics/Joints/b2MouseJoint.h
+	<Box2D/Dynamics/Joints/b2Joint.h>
+
+1315315528 /home/gio/Documents/kerjaan/P1/logistik/Box2D_v2.2.1/Box2D/Dynamics/Joints/b2PrismaticJoint.h
+	<Box2D/Dynamics/Joints/b2Joint.h>
+
+1315124520 /home/gio/Documents/kerjaan/P1/logistik/Box2D_v2.2.1/Box2D/Dynamics/Joints/b2PulleyJoint.h
+	<Box2D/Dynamics/Joints/b2Joint.h>
+
+1315121974 /home/gio/Documents/kerjaan/P1/logistik/Box2D_v2.2.1/Box2D/Dynamics/Joints/b2RevoluteJoint.h
+	<Box2D/Dynamics/Joints/b2Joint.h>
+
+1315143814 /home/gio/Documents/kerjaan/P1/logistik/Box2D_v2.2.1/Box2D/Dynamics/Joints/b2RopeJoint.h
+	<Box2D/Dynamics/Joints/b2Joint.h>
+
+1315120264 /home/gio/Documents/kerjaan/P1/logistik/Box2D_v2.2.1/Box2D/Dynamics/Joints/b2WeldJoint.h
+	<Box2D/Dynamics/Joints/b2Joint.h>
+
+1345610409 source:/home/gio/Documents/kerjaan/P1/belajar/miniOprek/string.cpp
+	<irrlicht.h>
+	<iostream>
+	<string>
+
+1345613120 source:/home/gio/Documents/kerjaan/P1/belajar/incubation1/src/abscharacter.cpp
+	"abscharacter.h"
+
+1345627921 /home/gio/Documents/kerjaan/P1/belajar/incubation1/include/abscharacter.h
+	<irrlicht.h>
+	<Box2D/Box2D.h>
+	<gsprite.h>
+
