@@ -1,8 +1,8 @@
 # depslib dependency file v1.0
-1345608787 source:/home/gio/Documents/kerjaan/P1/belajar/incubation1/src/gsprite.cpp
+1345860745 source:/home/gio/Documents/kerjaan/P1/belajar/incubation1/src/gsprite.cpp
 	"gsprite.h"
 
-1345628227 /home/gio/Documents/kerjaan/P1/belajar/incubation1/include/gsprite.h
+1345707661 /home/gio/Documents/kerjaan/P1/belajar/incubation1/include/gsprite.h
 	<irrlicht.h>
 	<Box2D/Box2D.h>
 
@@ -1140,4 +1140,7 @@
 	<irrlicht.h>
 	<Box2D/Box2D.h>
 	<gsprite.h>
+
+1345860704 source:/home/gio/Documents/kerjaan/P1/belajar/incubation1/src/main.cpp
+	"gsprite.h"
 

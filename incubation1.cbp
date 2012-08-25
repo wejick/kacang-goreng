@@ -42,6 +42,7 @@
 		<Unit filename="include/gsprite.h" />
 		<Unit filename="src/abscharacter.cpp" />
 		<Unit filename="src/gsprite.cpp" />
+		<Unit filename="src/main.cpp" />
 		<Extensions>
 			<envvars />
 			<code_completion />
