@@ -8,40 +8,41 @@ using namespace irr;
 
 class AbsCharacter
 {
-	public:
-		/** Default constructor */
-		AbsCharacter();
-
-        AbsCharacter(b2Vec2 position, b2World world,
-                     GSprite sprite);
+public:
+        /** Default constructor */
+        AbsCharacter(b2Vec2 position, b2World *world,
+                     GSprite *sprite);
         /** Get character position at b2box world */
         b2Vec2 getPosition();
         /** Get character position after converted to pixel coordinate*/
-        core::position2di getPositionI;
-        /** Get current path of active sprite */
-        core::string<fschar_t> getActiveSprite();
+        core::position2di getPositionI();
         /** Set position of character at b2box world */
         void setPosition(b2Vec2 position);
         /** Set position of character at pixel coordinate. We take care convertion to b2box world position */
         void setPosition(core::position2di position);
         /** Set sprite used by character */
-        void setSprite(GSprite spritePath);
+        //void setSprite(GSprite *spritePath);
         /** Set health character up */
         void upHealth(int up);
         /** Set health of character down */
         void hitHealt(int hit);
 
-		/** Default destructor */
-		virtual ~AbsCharacter();
-	protected:
+        /** Default destructor */
+        virtual ~AbsCharacter();
+protected:
+        /** Implementasi fisika bisa menggunakan objek ini, dimanipulasi di class turunan */
         b2Body  *body;      //!< Character body
-        b2Vec2  position;   //!< Character position at Box2D simulation
-        GSprite spritePath; //!< Handle basic sprite properties
-	private:
+
+private:
         b2BodyDef bodyDef;          //!< Character's bodyDef (check Box2D Documentation)
         b2FixtureDef fixtureDef;    //!< Character's fixtureDef (check Box2D Documentation)
+        /** Implementasikan di class turunan */
+        GSprite *spritePath;        //!< Handle basic sprite properties
+        b2Vec2  position;           //!< Character position at Box2D simulation
 //        b2Shape shape;               //!< Character's shape
         int health;                 //!< Character's healt
+
+//         position2d convertPosition(b2Vec2 position);  //!< Convert position from b2box world to pixel
 
 };
 
