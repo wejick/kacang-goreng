@@ -10,6 +10,7 @@ class Char : public AbsCharacter
         /** Default constructor */
         Char();
         Char(b2Vec2 position, b2World *world);
+        void draw(video::IVideoDriver *driver);
         /** Default destructor */
         virtual ~Char();
     protected:
