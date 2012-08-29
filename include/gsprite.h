@@ -16,7 +16,7 @@ class GSprite
 		/** Get sprite path value at any given number (from spritePath array) */
 		core::stringc getSprite(int number) {return spritePath[number];}
 		/** Get clip dimension */
-		core::rect<s32> getClipDimension();
+		core::rect<s32> getClipDimension(){ return clipDimension; }
 		int getCount() { return count; }
 		/** Get amount of item value at any given number (from spritePath array) */
 		int getItemNumberPerSprite(int number){return itemNumberPerSprite[number];}
