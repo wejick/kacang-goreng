@@ -1,25 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_layout_file>
 	<ActiveTarget name="Debug" />
-	<File name="include/abscharacter.h" open="1" top="0" tabpos="2">
-		<Cursor position="1059" topLine="18" />
+	<File name="include/abscharacter.h" open="1" top="1" tabpos="1">
+		<Cursor position="1516" topLine="27" />
 	</File>
-	<File name="include/gsprite.h" open="1" top="0" tabpos="3">
-		<Cursor position="99" topLine="1" />
+	<File name="include/gsprite.h" open="0" top="0" tabpos="3">
+		<Cursor position="354" topLine="0" />
 	</File>
-	<File name="include/testChar.h" open="1" top="0" tabpos="4">
-		<Cursor position="161" topLine="0" />
+	<File name="src/abscharacter.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="1427" topLine="39" />
 	</File>
-	<File name="src/abscharacter.cpp" open="1" top="0" tabpos="1">
-		<Cursor position="201" topLine="0" />
+	<File name="src/char.cpp" open="1" top="0" tabpos="6">
+		<Cursor position="1065" topLine="8" />
 	</File>
-	<File name="src/gsprite.cpp" open="0" top="0" tabpos="3">
-		<Cursor position="1405" topLine="0" />
+	<File name="src/gsprite.cpp" open="1" top="0" tabpos="7">
+		<Cursor position="1405" topLine="12" />
 	</File>
-	<File name="src/main.cpp" open="0" top="0" tabpos="0">
-		<Cursor position="270" topLine="0" />
-	</File>
-	<File name="src/testChar.cpp" open="1" top="1" tabpos="5">
-		<Cursor position="22" topLine="0" />
+	<File name="src/main.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="539" topLine="23" />
 	</File>
 </CodeBlocks_layout_file>
