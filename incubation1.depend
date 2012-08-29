@@ -1133,15 +1133,15 @@
 	<iostream>
 	<string>
 
-1346228537 source:/home/gio/Documents/kerjaan/P1/belajar/incubation1/src/abscharacter.cpp
+1346240603 source:/home/gio/Documents/kerjaan/P1/belajar/incubation1/src/abscharacter.cpp
 	"abscharacter.h"
 
-1346227901 /home/gio/Documents/kerjaan/P1/belajar/incubation1/include/abscharacter.h
+1346240212 /home/gio/Documents/kerjaan/P1/belajar/incubation1/include/abscharacter.h
 	<irrlicht.h>
 	<Box2D/Box2D.h>
 	<gsprite.h>
 
-1346228395 source:/home/gio/Documents/kerjaan/P1/belajar/incubation1/src/main.cpp
+1346240716 source:/home/gio/Documents/kerjaan/P1/belajar/incubation1/src/main.cpp
 	"char.h"
 	"Box2D/Box2D.h"
 	"irrlicht.h"
