@@ -28,8 +28,7 @@ public:
         /** Set health of character down */
         void hitHealt(int hit);
         /** Set up the physic stuff */
-        virtual void setPhysic() = 0;
-
+        virtual void setPhysic();
         /** Default destructor */
         virtual ~AbsCharacter();
 protected:
