@@ -5,11 +5,11 @@ AbsCharacter::AbsCharacter()
         this->position.Set(0.0f,0.0f);
 }
 AbsCharacter::AbsCharacter(b2Vec2 position, b2World *world,
-                           GSprite *sprite,video::IVideoDriver *driver)
+                           GSprite *spritePath,video::IVideoDriver *driver)
 {
         // ngeset-ngeset properti
         this->position = position;
-        this->spritePath = sprite;
+        this->spritePath = spritePath;
 
         //ngeset irrlicht
         this->driver = driver;
@@ -37,7 +37,7 @@ void AbsCharacter::setPosition(b2Vec2 position)
         this->position = position;
 }
 void AbsCharacter::setPosition(core::vector2d<s32> position)
-{
+// TODO (gio#1#): Mbenerin posisi antara b2box VS irrlich{
         // Harus cari algoritmanya konversi dari world b2box ke pixel
         /** sementara ini dulu (-5) */
         this->position.x = position.X-5;
@@ -61,13 +61,7 @@ void AbsCharacter::setSprite(GSprite *spritePath)
 }
 void AbsCharacter::draw(int n)
 {
-        static int currentN=0;
-        if(currentN!=n) {
-                this->texture = driver->getTexture(this->spritePath->getSprite(n));
-                currentN = n;
-        }
-        irr::core::vector2d<s32> ok = this->getPositionI();
-        driver->draw2DImage(texture,ok);
+
 }
 AbsCharacter::~AbsCharacter()
 {

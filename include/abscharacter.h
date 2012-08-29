@@ -12,7 +12,7 @@ public:
         /** Default constructor */
         AbsCharacter();
         AbsCharacter(b2Vec2 position, b2World *world,
-                     GSprite *sprite,video::IVideoDriver *driver);
+                     GSprite *spritePath,video::IVideoDriver *driver);
         /** Get character position at b2box world */
         b2Vec2 getPosition();
         /** Get character position after converted to pixel coordinate*/
@@ -28,9 +28,11 @@ public:
         /** Set health of character down */
         void hitHealt(int hit);
         /** Set Driver */
-        void setDriver(video::IVideoDriver *driver) { this->driver = driver;}
+        void setDriver(video::IVideoDriver *driver) {
+                this->driver = driver;
+        }
         /** Gambar ini dong, n itu urutan spritenya */
-        void draw(int n);
+        virtual void draw()=0;
         /** Default destructor */
         virtual ~AbsCharacter();
 protected:

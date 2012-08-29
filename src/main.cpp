@@ -41,7 +41,8 @@ int main()
         while(1) {
                 world.Step(timeStep, velocityIteration, positionIteration);
                 driver->beginScene(true,true,video::SColor(255,225,225,255));
-                mainChar->draw(1);
+                //driver->draw2DLine(core::position2di(5,5),core::position2di(10,10));
+                mainChar->draw();
                 driver->endScene();
         }
         return 0;

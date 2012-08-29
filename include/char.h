@@ -6,15 +6,15 @@
 
 class Char : public AbsCharacter
 {
-    public:
+public:
         /** Default constructor */
         Char();
         Char(b2Vec2 position, b2World *world,video::IVideoDriver *driver);
-        //void draw(int n);
+        void draw();
         /** Default destructor */
         virtual ~Char();
-    protected:
-    private:
+protected:
+private:
         void setPhysic();
         GSprite *sprite;
         b2World *world;
