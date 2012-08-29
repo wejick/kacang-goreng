@@ -5,10 +5,14 @@ AbsCharacter::AbsCharacter()
         this->position.Set(0.0f,0.0f);
 }
 AbsCharacter::AbsCharacter(b2Vec2 position, b2World *world,
-                           GSprite *sprite)
+                           GSprite *sprite,video::IVideoDriver *driver)
 {
+        // ngeset-ngeset properti
         this->position = position;
         this->spritePath = sprite;
+
+        //ngeset irrlicht
+        this->driver = driver;
 
         // ngeset-ngeset b2box
         this->bodyDef.position.Set(position.x,position.y);
@@ -53,15 +57,21 @@ void AbsCharacter::setPhysic()
 }
 void AbsCharacter::setSprite(GSprite *spritePath)
 {
-    this->spritePath = spritePath;
+        this->spritePath = spritePath;
 }
-void AbsCharacter::draw(irr::video::IVideoDriver *driver)
+void AbsCharacter::draw(int n)
 {
-    irr::video::ITexture *texture = driver->getTexture(this->spritePath->getSprite(1)); // ini bisa bikin lambat, harus ngeload sekali (atau pas dibutuhkan) saja
-    irr::core::vector2d<s32> ok = this->getPositionI();
-    driver->draw2DImage(texture,ok);
+        static int currentN=0;
+        if(currentN!=n) {
+                this->texture = driver->getTexture(this->spritePath->getSprite(n));
+                currentN = n;
+        }
+        irr::core::vector2d<s32> ok = this->getPositionI();
+        driver->draw2DImage(texture,ok);
 }
 AbsCharacter::~AbsCharacter()
 {
-        delete spritePath;
+        delete this->spritePath;
+        delete this->driver;
+        delete this->texture;
 }

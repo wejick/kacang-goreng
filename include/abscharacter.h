@@ -12,7 +12,7 @@ public:
         /** Default constructor */
         AbsCharacter();
         AbsCharacter(b2Vec2 position, b2World *world,
-                     GSprite *sprite);
+                     GSprite *sprite,video::IVideoDriver *driver);
         /** Get character position at b2box world */
         b2Vec2 getPosition();
         /** Get character position after converted to pixel coordinate*/
@@ -27,8 +27,10 @@ public:
         void upHealth(int up);
         /** Set health of character down */
         void hitHealt(int hit);
-        /** Draw sprite */
-        void draw(video::IVideoDriver *driver);
+        /** Set Driver */
+        void setDriver(video::IVideoDriver *driver) { this->driver = driver;}
+        /** Gambar ini dong, n itu urutan spritenya */
+        void draw(int n);
         /** Default destructor */
         virtual ~AbsCharacter();
 protected:
@@ -36,15 +38,16 @@ protected:
         b2Body  *body;      //!< Character body
         /** Implementasikan di class turunan */
         GSprite *spritePath;        //!< Handle basic sprite properties
+        /** Urusan irrlich untuk gambar-gambar */
+        video::IVideoDriver *driver;
+        video::ITexture *texture;
         /** Set up the physic stuff */
         virtual void setPhysic()=0;
 
 private:
         b2BodyDef bodyDef;          //!< Character's bodyDef (check Box2D Documentation)
         b2FixtureDef fixtureDef;    //!< Character's fixtureDef (check Box2D Documentation)
-
         b2Vec2  position;           //!< Character position at Box2D simulation
-//        b2Shape shape;               //!< Character's shape
         int health;                 //!< Character's healt
 
 //         position2d convertPosition(b2Vec2 position);  //!< Convert position from b2box world to pixel

@@ -25,8 +25,7 @@ int main()
         //tambah fixture ke body dengan groundbox sebagai shape
         groundBody->CreateFixture(&groundBox,0.0f);
 
-        /** masalah irrlichnya */
-        Char *mainChar = new Char(b2Vec2(5.0f,7.0f),&world);
+        /** mbenerin irrlichnya */
         IrrlichtDevice *device = createDevice(video::EDT_OPENGL,core::dimension2d<u32>(640,480),16,false,false,false,NULL);
         if(!device)
                 return 1;
@@ -34,13 +33,15 @@ int main()
         float32 timeStep = 1.0f / 60.0f;
         int32 velocityIteration = 1;
         int32 positionIteration = 1;
-
         b2Vec2 position;
+
+        Char *mainChar = new Char(b2Vec2(5.0f,7.0f),&world,driver);
+
         //for (int32 i = 0; i < 120; ++i) {
         while(1) {
                 world.Step(timeStep, velocityIteration, positionIteration);
                 driver->beginScene(true,true,video::SColor(255,225,225,255));
-                mainChar->draw(driver);
+                mainChar->draw(1);
                 driver->endScene();
         }
         return 0;

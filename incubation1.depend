@@ -1,8 +1,8 @@
 # depslib dependency file v1.0
-1345897943 source:/home/gio/Documents/kerjaan/P1/belajar/incubation1/src/gsprite.cpp
+1346226577 source:/home/gio/Documents/kerjaan/P1/belajar/incubation1/src/gsprite.cpp
 	"gsprite.h"
 
-1345707661 /home/gio/Documents/kerjaan/P1/belajar/incubation1/include/gsprite.h
+1346227715 /home/gio/Documents/kerjaan/P1/belajar/incubation1/include/gsprite.h
 	<irrlicht.h>
 	<Box2D/Box2D.h>
 
@@ -1133,15 +1133,15 @@
 	<iostream>
 	<string>
 
-1346216970 source:/home/gio/Documents/kerjaan/P1/belajar/incubation1/src/abscharacter.cpp
+1346228537 source:/home/gio/Documents/kerjaan/P1/belajar/incubation1/src/abscharacter.cpp
 	"abscharacter.h"
 
-1346217059 /home/gio/Documents/kerjaan/P1/belajar/incubation1/include/abscharacter.h
+1346227901 /home/gio/Documents/kerjaan/P1/belajar/incubation1/include/abscharacter.h
 	<irrlicht.h>
 	<Box2D/Box2D.h>
 	<gsprite.h>
 
-1346216818 source:/home/gio/Documents/kerjaan/P1/belajar/incubation1/src/main.cpp
+1346228395 source:/home/gio/Documents/kerjaan/P1/belajar/incubation1/src/main.cpp
 	"char.h"
 	"Box2D/Box2D.h"
 	"irrlicht.h"
@@ -1152,9 +1152,9 @@
 1346165065 /home/gio/Documents/kerjaan/P1/belajar/incubation1/include/testChar.h
 	<abscharacter.h>
 
-1346217638 source:/home/gio/Documents/kerjaan/P1/belajar/incubation1/src/char.cpp
+1346228279 source:/home/gio/Documents/kerjaan/P1/belajar/incubation1/src/char.cpp
 	"char.h"
 
-1346216923 /home/gio/Documents/kerjaan/P1/belajar/incubation1/include/char.h
+1346228117 /home/gio/Documents/kerjaan/P1/belajar/incubation1/include/char.h
 	<abscharacter.h>
 

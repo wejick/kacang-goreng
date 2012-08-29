@@ -9,14 +9,14 @@ class Char : public AbsCharacter
     public:
         /** Default constructor */
         Char();
-        Char(b2Vec2 position, b2World *world);
-        void draw(video::IVideoDriver *driver);
+        Char(b2Vec2 position, b2World *world,video::IVideoDriver *driver);
+        //void draw(int n);
         /** Default destructor */
         virtual ~Char();
     protected:
     private:
-        GSprite *sprite;
         void setPhysic();
+        GSprite *sprite;
         b2World *world;
 };
 

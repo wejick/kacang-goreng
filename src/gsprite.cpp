@@ -61,7 +61,6 @@ void GSprite::addSprite(core::stringc sprite,core::rect<s32> clipDim,
         this->clipDimension[count+1] = clipDim;
         this->itemNumberPerSprite[count+1] = itemNumber;
 }
-
 GSprite::~GSprite()
 {
         delete[] spritePath;
