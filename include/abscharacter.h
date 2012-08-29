@@ -22,24 +22,27 @@ public:
         /** Set position of character at pixel coordinate. We take care convertion to b2box world position */
         void setPosition(core::vector2d<s32> position);
         /** Set sprite used by character */
-        //void setSprite(GSprite *spritePath);
+        void setSprite(GSprite *spritePath);
         /** Set health character up */
         void upHealth(int up);
         /** Set health of character down */
         void hitHealt(int hit);
-        /** Set up the physic stuff */
-        virtual void setPhysic();
+        /** Draw sprite */
+        void draw(video::IVideoDriver *driver);
         /** Default destructor */
         virtual ~AbsCharacter();
 protected:
         /** Implementasi fisika bisa menggunakan objek ini, dimanipulasi di class turunan */
         b2Body  *body;      //!< Character body
+        /** Implementasikan di class turunan */
+        GSprite *spritePath;        //!< Handle basic sprite properties
+        /** Set up the physic stuff */
+        virtual void setPhysic()=0;
 
 private:
         b2BodyDef bodyDef;          //!< Character's bodyDef (check Box2D Documentation)
         b2FixtureDef fixtureDef;    //!< Character's fixtureDef (check Box2D Documentation)
-        /** Implementasikan di class turunan */
-        GSprite *spritePath;        //!< Handle basic sprite properties
+
         b2Vec2  position;           //!< Character position at Box2D simulation
 //        b2Shape shape;               //!< Character's shape
         int health;                 //!< Character's healt

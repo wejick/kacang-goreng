@@ -17,11 +17,13 @@ AbsCharacter::AbsCharacter(b2Vec2 position, b2World *world,
 }
 b2Vec2 AbsCharacter::getPosition()
 {
+        this->position = this->body->GetPosition();
         return this->position;
 }
 irr::core::vector2d<s32> AbsCharacter::getPositionI()
 {
         // Harus cari algoritmanya konversi dari world b2box ke pixel
+        this->position = this->body->GetPosition();
         /** sementara ini dulu (+5) */
         core::vector2d<s32> pos = core::vector2d<s32>(this->position.x+5,this->position.y+5);
         return pos;
@@ -44,6 +46,20 @@ void AbsCharacter::upHealth(int up)
 void AbsCharacter::hitHealt(int hit)
 {
         this->health=this->health-hit;
+}
+void AbsCharacter::setPhysic()
+{
+
+}
+void AbsCharacter::setSprite(GSprite *spritePath)
+{
+    this->spritePath = spritePath;
+}
+void AbsCharacter::draw(irr::video::IVideoDriver *driver)
+{
+    irr::video::ITexture *texture = driver->getTexture(this->spritePath->getSprite(1)); // ini bisa bikin lambat, harus ngeload sekali (atau pas dibutuhkan) saja
+    irr::core::vector2d<s32> ok = this->getPositionI();
+    driver->draw2DImage(texture,ok);
 }
 AbsCharacter::~AbsCharacter()
 {
