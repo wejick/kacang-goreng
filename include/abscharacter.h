@@ -10,22 +10,25 @@ class AbsCharacter
 {
 public:
         /** Default constructor */
+        AbsCharacter();
         AbsCharacter(b2Vec2 position, b2World *world,
                      GSprite *sprite);
         /** Get character position at b2box world */
         b2Vec2 getPosition();
         /** Get character position after converted to pixel coordinate*/
-        core::position2di getPositionI();
+        core::vector2d<s32> getPositionI();
         /** Set position of character at b2box world */
         void setPosition(b2Vec2 position);
         /** Set position of character at pixel coordinate. We take care convertion to b2box world position */
-        void setPosition(core::position2di position);
+        void setPosition(core::vector2d<s32> position);
         /** Set sprite used by character */
         //void setSprite(GSprite *spritePath);
         /** Set health character up */
         void upHealth(int up);
         /** Set health of character down */
         void hitHealt(int hit);
+        /** Set up the physic stuff */
+        virtual void setPhysic() = 0;
 
         /** Default destructor */
         virtual ~AbsCharacter();
