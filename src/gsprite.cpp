@@ -4,13 +4,13 @@ GSprite::GSprite()
 {
         /** Create "ADDER" empty array and add "ADDER" every addition */
         spritePath = new core::stringc[ADDER];
-        clipDimension = new core::rect<u16>[ADDER];
+        clipDimension = new core::rect<s32>[ADDER];
         itemNumberPerSprite = new int[ADDER];
         int count = 0;
         int arrCount = ADDER;
 }
 
-void GSprite::addSprite(core::stringc sprite,core::rect<u16> clipDim,
+void GSprite::addSprite(core::stringc sprite,core::rect<s32> clipDim,
                         int itemNumber)
 {
 
@@ -21,7 +21,7 @@ void GSprite::addSprite(core::stringc sprite,core::rect<u16> clipDim,
         if((arrCount%ADDER)==0) {
                 // move the content of (spritePath, clipDimension and itemNumberPerSprite) array to safe place
                 core::stringc *spriteTemp = new core::stringc[count];
-                core::rect<u16> *clipDimensionTemp = new core::rect<u16>[count];
+                core::rect<s32> *clipDimensionTemp = new core::rect<s32>[count];
                 int *itemNumberPerSpriteTemp = new int[count];
 
                 for(int i=0; i<count; i++) {
@@ -38,7 +38,7 @@ void GSprite::addSprite(core::stringc sprite,core::rect<u16> clipDim,
 
                 // add "ADDER" empty array
                 this->spritePath = new core::stringc[arrCount+ADDER];
-                this->clipDimension = new core::rect<u16>[arrCount+ADDER];
+                this->clipDimension = new core::rect<s32>[arrCount+ADDER];
                 this->itemNumberPerSprite = new int[arrCount+ADDER];
 
                 for(int i=0; i<count; i++) {
