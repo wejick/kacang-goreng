@@ -13,6 +13,7 @@ Char::Char(b2Vec2 position, b2World *world,video::IVideoDriver *driver) :
         this->sprite->addSprite("../../logistik/project/tutorial_a/ok.jpg", irr::core::rect<s32>(0,66,200,133),1);
         AbsCharacter::setSprite(sprite);
         this->texture = driver->getTexture(sprite->getSprite(1));
+        this->driver->makeColorKeyTexture(texture,video::SColor(0,0,0,0));
 }
 void Char::setPhysic()
 {
