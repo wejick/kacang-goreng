@@ -30,6 +30,9 @@ int main()
         if(!device)
                 return 1;
         video::IVideoDriver *driver = device->getVideoDriver();
+        driver->getMaterial2D().AntiAliasing=video::EAAM_SIMPLE;
+        driver->getMaterial2D().TextureLayer[0].BilinearFilter=true;
+
         float32 timeStep = 1.0f / 60.0f;
         int32 velocityIteration = 1;
         int32 positionIteration = 1;
